@@ -19,9 +19,9 @@ const ContextTest = () => {
       <input
         onChange={handleInput}
         type="text"
-        className="border border-slate-600"
+        className="border border-slate-600 py-1"
       />
-      <button onClick={handleSubmit}>submit</button>
+      <button onClick={handleSubmit} className="bg-slate-300 px-2 py-1 rounded-md ml-1">submit</button>
     </div>
   );
 };

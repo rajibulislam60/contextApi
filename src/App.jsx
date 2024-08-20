@@ -9,11 +9,11 @@ const App = () => {
  
   
   return (
-    <div>
-      <ContextTest/>
-      <NewTest/>
+    <div className="w-[300px] mx-auto text-center mt-10 shadow-inner shadow-slate-500 py-6">
+      <ContextTest />
+      <NewTest />
     </div>
-  )
+  );
 }
 
 export default App
